@@ -15,3 +15,7 @@ __pycache__/
 
 # OS-specific files
 .DS_Store
+
+# Audio files
+output.mp3
+output.wav
