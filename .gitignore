@@ -17,5 +17,5 @@ __pycache__/
 .DS_Store
 
 # Audio files
-output.mp3
-output.wav
+*.mp3
+*.wav
