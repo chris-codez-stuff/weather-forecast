@@ -3,8 +3,9 @@ __pycache__/
 *.py[cod]
 
 # Virtual environment
-venv/
+.venv/
 .env/
+.env
 
 # Logs
 *.log
