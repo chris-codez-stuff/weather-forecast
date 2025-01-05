@@ -6,10 +6,8 @@ from gtts import gTTS
 from pydub import AudioSegment
 import pygame
 
-
 def speak(text):
     language = "en"
-
     tts = gTTS(text=text, lang=language, slow=False)
     tts.save("output.mp3")
 
@@ -22,3 +20,6 @@ def speak(text):
 
     while pygame.mixer.music.get_busy():
         time.sleep(1)
+
+    os.remove("output.mp3")
+    os.remove("output.wav")
